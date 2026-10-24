@@ -1,0 +1,25 @@
+# Local IDE settings and Python caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Data files: publish directory placeholders only
+datasets/**
+!datasets/**/
+!datasets/**/.gitkeep
+
+# Generated experiment outputs and model checkpoints
+results/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
